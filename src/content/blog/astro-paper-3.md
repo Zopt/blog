@@ -7,41 +7,42 @@ featured: false
 ogImage: https://github.com/satnaing/astro-paper/assets/53733092/1ef0cf03-8137-4d67-ac81-84a032119e3a
 tags:
   - release
-description: "AstroPaper Version 3: Elevating Your Web Experience with Astro v3 and Seamless View Transitions"
+description: "AstroPaper Version 3: 使用 Astro v3和无缝视图转换提升您的 Web 体验"
 ---
 
 We're excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience. Let's dive into the highlights of this release:
 
 ![AstroPaper v3](@assets/images/AstroPaper-v3.png)
 
-## Table of contents
+## 表格内容
 
-## Features & Changes
+## 功能和改变
 
-### Astro v3 Integration
+### Astro v3 整合
 
 <video autoplay loop="loop" muted="muted" plays-inline="true">
   <source src="https://github.com/satnaing/astro-paper/assets/53733092/18fdb604-1ca3-41a0-8372-1367759091ff" type="video/mp4">
   <!-- <source src="/assets/docs/astro-paper-v3-view-transitions-demo.mp4" type="video/mp4"> -->
 </video>
 
-AstroPaper now fully supports [Astro v3](https://astro.build/blog/astro-3/), offering improved performance and rendering speed.
+AstroPaper 现在完全支持[ Astro v3]( https://Astro.build/blog/Astro-3/) ，提供了更好的性能和渲染速度。
 
-Besides, we've added support for Astro's [ViewTransitions API](https://docs.astro.build/en/guides/view-transitions/), allowing you to create captivating and dynamic transitions between views.
+除此之外，我们还增加了对 Astro 的视图转换 API ( https://docs.Astro.build/en/guides/view-transitions/)的支持，允许你在视图之间创建迷人的动态转换。
 
-In the "Recent Section", only non-featured posts will be displayed to avoid duplications and better support for ViewTransitions API.
+在“最近的部分”，只有非特色的文章将显示，以避免重复和更好地支持视图转换 API。
 
-### Update OG Image Generation Logic
+### 更新 OG 图像生成逻辑
 
 ![Example OG Image](https://user-images.githubusercontent.com/40914272/269252964-a0dc6735-80f7-41ed-8e74-4d4d70f96891.png)
 
-We've updated the logic for automatic OG image generation, making it even more reliable and efficient. Besides, it now supports special characters in post titles, ensuring accurate, flexible and eye-catching social media previews.
+
+我们更新了 OG 图像自动生成的逻辑，使其更加可靠和高效。此外，它现在支持在帖子标题中的特殊字符，确保准确、灵活和引人注目的社交媒体预览。
 
 `SITE.ogImage` is now optional. If it is not specified, AstroPaper will automatically generate an OG image using `SITE.title`, `SITE.desc` and `SITE.website`
 
-### Theme meta tag
+### 主题元标签
 
-The theme-color meta tag has been added to dynamically adapt to theme switches, ensuring a seamless user experience.
+添加了主题颜色元标记，以动态适应主题切换，确保无缝用户体验。
 
 > Notice the difference at the top
 
