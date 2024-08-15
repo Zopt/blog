@@ -3,7 +3,7 @@ author: muyi
 pubDatetime: 2024-08-11T15:22:00Z
 modDatetime: 2024-08-11T09:12:47.400Z
 title: 第一篇中文博客
-slug: 第一篇中文博客
+slug: "tile"
 featured: true
 draft: false
 tags:
